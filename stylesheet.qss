@@ -1,0 +1,11 @@
+QDialog#LoginDialog,#RegisterDialog{
+    background-color: rgb(0,0,0)
+}
+
+#login_hint[state='normal']{
+    color: green;
+}
+
+#login_hint[state='err']{
+    color: red;
+}
